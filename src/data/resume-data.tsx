@@ -1,0 +1,338 @@
+import { GitHubIcon } from "@/components/icons/GitHubIcon";
+import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
+import { XIcon } from "@/components/icons/XIcon";
+import { InstagramIcon } from "@/components/icons/InstagramIcon";
+import { FacebookIcon } from "@/components/icons/FacebookIcon";
+
+export const RESUME_DATA = {
+  name: "Janitha Gamage",
+  initials: "JG",
+  location: "Colombo, Sri Lanka",
+  locationLink: "https://www.google.com/maps/place/Colombo,+Sri+Lanka",
+  title: "Emerging Developer & Product Strategist",
+  about:
+    "A passionate Software Engineering Undergraduate and emerging Developer & Product Strategist seeking internship opportunities. Specializing in AI-driven development, TypeScript, React, Node.js, and cloud technologies.",
+  summary:
+    "I specialize in AI-driven development, JavaScript/TypeScript, React, Node.js, and cloud technologies (Azure), leveraging AI tools like GitHub Copilot to enhance development efficiency and code quality. I've successfully led multiple university project teams using microservices architecture and modern AI-assisted development practices, while managing products serving 2M+ users.",
+  avatarUrl: "/avatar.jpg",
+  avatarHoverUrl: "/avatar-hover.jpg",
+  contact: {
+    email: "janithagamage2001@example.com",
+    tel: "+94 743 288 572",
+    social: [
+      {
+        name: "GitHub",
+        url: "https://github.com/JordanCJ7",
+        icon: GitHubIcon,
+      },
+      {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/janithagamage/",
+        icon: LinkedInIcon,
+      },
+      {
+        name: "X",
+        url: "https://x.com/JanithaGamage01",
+        icon: XIcon,
+      },
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/janitha.gamage.01/",
+        icon: InstagramIcon,
+      },
+      {
+        name: "Facebook",
+        url: "https://www.facebook.com/janitha.gamage.01/",
+        icon: FacebookIcon,
+      },
+    ],
+  },
+  skills: [
+    {
+      category: "AI-Driven Development",
+      items: [
+        "GitHub Copilot",
+        "AI Code Generation",
+        "Prompt Engineering",
+        "AI Dev Workflows",
+        "AI-Enhanced Debugging",
+        "ML Integration",
+      ],
+    },
+    {
+      category: "Development & Engineering",
+      items: [
+        "JavaScript/TypeScript",
+        "React/Next.js",
+        "Node.js/Express",
+        "Python",
+        "MongoDB/MySQL",
+        "C# / .NET",
+        "Kotlin",
+        "PHP",
+      ],
+    },
+    {
+      category: "Product Management & Strategy",
+      items: [
+        "Team Organization",
+        "Stakeholder Management",
+        "User Research",
+        "Requirements Gathering",
+        "Product Strategy",
+        "Product Roadmapping",
+        "Agile/Scrum",
+        "Data Analysis",
+      ],
+    },
+    {
+      category: "Cloud & DevOps",
+      items: [
+        "Git/GitHub",
+        "API Design & Testing",
+        "Microsoft Azure",
+        "Docker & Containers",
+        "Microservices",
+        "CI/CD Pipelines",
+      ],
+    },
+    {
+      category: "Leadership & Team Management",
+      items: [
+        "Technical Comm.",
+        "Team Leadership",
+        "Project Management",
+        "Cross-functional Coll.",
+        "Problem-Solving",
+        "Mentoring & Guidance",
+      ],
+    },
+    {
+      category: "UX & Design Strategy",
+      items: [
+        "Responsive Design",
+        "Accessibility (WCAG)",
+        "UX Design",
+        "A/B Testing",
+        "Design Systems",
+      ],
+    },
+  ],
+  professionalExperience: [
+    {
+      company: "Furo Labs",
+      link: "https://furo.lk",
+      badges: ["Co-Founder", "Mobile App Dev", "Text Prediction", "Product Design"],
+      title: "Co-Founder & Self-Employed Developer",
+      start: "Dec 2025",
+      end: "Present",
+      description:
+        "Developed new features for a Sinhala-English mobile keyboard app (2M+ downloads). Built real-time text prediction services and integrated voice typing and emoji support. Currently working on: Creating a knowledge base.",
+    },
+    {
+      company: "Flashboard",
+      link: "https://github.com/JordanCJ7/FlashBoard-Wiki",
+      badges: ["Next.js", "TypeScript", "Radix UI", "Firebase", "Genkit"],
+      title: "Full Stack Developer & Product Strategist",
+      start: "2025",
+      end: "Present",
+      description:
+        "Building a real-time collaborative Wiki platform. Serving 2M+ active users, resulting in a 40% reduction in customer support tickets and a 65% increase in self-service resolution.",
+    },
+  ],
+  academicExperience: [
+    {
+      company: "SLIIT SESC (Software Engineering Student Community)",
+      link: "https://www.linkedin.com/company/sliit-sesc",
+      badges: ["Leadership", "App Development", "Event Coordination", "Community Outreach", "Technical Writing"],
+      title: "Committee Member",
+      start: "Apr 2025",
+      end: "Present",
+      description:
+        "Led the development of the Knight Ro exhibition navigation app (improving visitor experience through intuitive navigation) and served as the lead coordinator for industrial visits to Atlas Labs and RootCode. Facilitated the successful launch of the Arthritis.lk platform (mentored by Dr. Asanka Nugaliyadde at Kurunegala Teaching Hospital) and represented the community as a volunteer at SLIIT DevFest. Active in community outreach, co-organizing the 'Rebuild Their Future' book donation drive, and contributing thought leadership via the SLIIT SESC Medium page with articles like 'Why Big Tech Wants You Dependent, Not Skilled'.",
+    },
+    {
+      company: "Mozilla Campus Club of SLIIT",
+      link: "https://www.linkedin.com/company/mozilla-campus-club-of-sliit",
+      badges: ["Club Treasurer", "Open Source", "Web Development", "Technical Writing", "Event Organizing"],
+      title: "Club Treasurer & Committee Member (Dev & Editorial Teams)",
+      start: "Apr 2024",
+      end: "Present",
+      description:
+        "Served as Dev Team and Editorial Team member, later appointed Lead Developer for the 'Mozilla Blog' project, collaborating with volunteers to build the club's official blog publishing site. Recognized as the 'Insightful Writer of the 25/26 Mozilla Year' for publishing impactful articles on Medium, such as 'A Beginner’s Guide to Mastering APIs with Postman and HTTPie'. Regularly contributed code to Mozilla GitHub repositories (ranking 7th on the club leaderboard as JordanCJ7) and organized interactive community workshops, including a Desktop Linux Session.",
+    },
+    {
+      company: "LEO Club of SLIIT",
+      link: "https://www.linkedin.com/company/leo-club-of-sliit",
+      badges: ["Community Service", "First Aid & Safety", "Disaster Prevention", "Event Management"],
+      title: "Active Member",
+      start: "Sep 2025",
+      end: "Present",
+      description:
+        "Contributed to community welfare and public safety initiatives. Coordinated and participated in Project ResQ 2.0 (Phases 1-3), facilitating fire safety, first-aid training for school children, and flood disaster prevention workshops. Awarded official Certificates of Membership at key club installation ceremonies.",
+    },
+  ],
+  education: [
+    {
+      school: "Sri Lanka Institute of Information Technology (SLIIT)",
+      degree: "BSc (Hons) in Information Technology – Software Engineering Specialization",
+      start: "2023",
+      end: "Present",
+      logo: "/logos/sliit-logo.png",
+      highlights: [
+        "Focus on AI-driven development, full-stack engineering, and product strategy",
+        "Led multiple high-performing project teams",
+      ],
+    },
+    {
+      school: "Richmond College, Galle",
+      degree: "G.C.E. Advanced Level - Biological Science Stream",
+      start: "2017",
+      end: "2020",
+      logo: "/logos/richmond-college-logo.png",
+      highlights: [
+        "Studied Biology, Physics, and Chemistry",
+        "GIT: A | GIQ: 86.66 | General English: A",
+      ],
+    },
+  ],
+  certifications: [
+    {
+      title: "Microsoft Azure Fundamentals AZ-900",
+      issuer: "Microsoft",
+      date: "Scheduled July 2025",
+      badge: "/certs/Microsoft Certified Azure Fundamentals AZ 900 Badge.png",
+    },
+    {
+      title: "Postman API Fundamentals Student Expert",
+      issuer: "Postman",
+      date: "2025",
+      badge: "/certs/Postman API Fundamentals Student Expert.png",
+      link: "https://api.badgr.io/public/assertions/bTETPxnZT7u-hDzCuaUN4A",
+    },
+    {
+      title: "Collaborate with others with Markdown and GitHub Pages",
+      issuer: "Microsoft",
+      date: "2025",
+      badge: "/certs/Collaborate with others with Markdown and GitHub Pages.png",
+    },
+    {
+      title: "AI Skills Fest Challenge: Create Agentic AI Solutions",
+      issuer: "Microsoft",
+      date: "2025",
+      badge: "/certs/AI Skills Fest Challenge Create agentic AI solutions with Azure AI Foundry.png",
+    },
+    {
+      title: "AI Skills Fest Challenge: Architecture Recipes",
+      issuer: "Microsoft",
+      date: "2025",
+      badge: "/certs/AI Skills Fest Challenge Architecture Recipes for AI-Powered Applications.png",
+    },
+    {
+      title: "AI Skills Fest Challenge: Treasure Hunt",
+      issuer: "Microsoft",
+      date: "2025",
+      badge: "/certs/AI Skills Fest Challenge Treasure Hunt for AI Skills.png",
+    },
+    {
+      title: "Azure Fundamentals: Describe Cloud Concepts",
+      issuer: "Microsoft",
+      date: "2025",
+      badge: "/certs/Microsoft Azure Fundamentals Describe cloud concepts.png",
+    },
+    {
+      title: "Azure Fundamentals: Describe Architecture and Services",
+      issuer: "Microsoft",
+      date: "2025",
+      badge: "/certs/Microsoft Azure Fundamentals Describe Azure architecture and services.png",
+    },
+    {
+      title: "Azure Fundamentals: Describe Management and Governance",
+      issuer: "Microsoft",
+      date: "2025",
+      badge: "/certs/Microsoft Azure Fundamentals Describe Azure management and governance.png",
+    },
+  ],
+  projects: [
+    {
+      title: "Flashboard Wiki",
+      techStack: ["Next.js", "TypeScript", "Radix UI", "Firebase", "Genkit"],
+      description: "Knowledge Base platform serving 2M+ active users with real-time collaboration.",
+      longDescription: "Key Features:\n- User-friendly Interface: Seamless, responsive design for easy browsing and contribution.\n- Real-time Collaboration: Users can edit and update content dynamically.\n- Comprehensive Wiki: In-depth articles, tutorials, and FAQs covering all Flashboard features.\n- Searchable Content: Fast, efficient, and robust search for quick access to information.\n\nTech Stack:\n- Frontend: Next.js, Radix UI\n- Backend: TypeScript\n- Language: TypeScript\n- Other: Firebase Studio, Genkit",
+      metrics: "2M+ Active Users · 40% Support Reduction",
+      link: "https://github.com/JordanCJ7/FlashBoard-Wiki",
+      image: "/projects/Flashboard.jpeg",
+      featured: true,
+    },
+    {
+      title: "FoodieFly",
+      techStack: ["React", "Node.js", "Express", "MongoDB", "Docker", "Microservices"],
+      description: "High-performance Food Delivery Platform built using microservices architecture.",
+      longDescription: "Key Features:\n- Microservices Architecture: Implemented using Docker and Node.js to ensure scalability and maintainability.\n- User Authentication & Authorization: Utilized JWT tokens for secure user registration and login.\n- Restaurant Management: Enabled restaurants to manage their menus and orders efficiently.\n- Order & Delivery Management: Facilitated seamless order processing and delivery tracking.\n- Payment Integration: Integrated payment gateways for secure transactions.\n- Admin Dashboard: Provided an admin interface for monitoring and managing the system.\n\nTech Stack:\n- Frontend: React\n- Backend: Node.js, Express, MongoDB\n- Authentication: JWT, Passport.js\n- Containerization: Docker\n- Language: JavaScript",
+      metrics: "99.9% Uptime · 85% Satisfaction",
+      link: "https://github.com/JordanCJ7/FoodieFly",
+      image: "/projects/FoodieFly.png",
+      featured: true,
+    },
+    {
+      title: "NobleTrust",
+      techStack: ["HTML5", "CSS3", "Sass", "JavaScript"],
+      description: "Modern Insurance Website optimized for WCAG accessibility and inquiry conversion.",
+      longDescription: "Key Features:\n- Conversion Optimization: Implemented A/B testing to refine user flows.\n- Accessibility: Achieved full WCAG compliance for inclusivity.\n- Performance: Optimized for fast load times and high Lighthouse scores.\n\nTech Stack:\n- Frontend: HTML5, CSS3, Sass\n- Backend: JavaScript\n- Language: JavaScript",
+      metrics: "45% Conversion Increase · 95+ Lighthouse",
+      link: "https://github.com/JordanCJ7/NobleTrust",
+      image: "/projects/NobleTrust.png",
+      featured: true,
+    },
+    {
+      title: "Dry Drop",
+      techStack: ["PHP", "MySQL", "Bootstrap 5", "Chart.js"],
+      description: "Laundry Service Web App with dynamic admin reporting dashboard.",
+      longDescription: "Key Features:\n- Mobile-first, responsive layout with Bootstrap 5\n- Clean service catalog with pricing and scheduling\n- Admin & Customer dashboards with real-time status updates\n- Smart environment detection for seamless deployment\n- Rating & feedback system for service quality insights\n- Secure user auth with role-based access\n\nKey Pages & Modules:\n- Landing Page with service showcase\n- Customer Portal for profile, orders, and feedback\n- Admin Dashboard for users, inventory, and analytics\n- Service Packages with flexible pricing\n- Order Placement & Pickup Scheduling\n- Payment Methods: Cash + Online\n- Reports with visual analytics (Chart.js)\n\nTech Stack:\n- Backend: PHP 7.4+ (MySQLi integration)\n- Frontend: HTML5, CSS3, JavaScript, Bootstrap 5\n- Data Visualization: Chart.js\n- Database: MySQL\n- Deployment: Smart config.php, auto foreign key management, zero-config hosting\n- Language: PHP, JavaScript",
+      metrics: "Zero-config deployment · Interactive Charts",
+      link: "https://github.com/JordanCJ7/Dry-Drop",
+      image: "/projects/DryDrop.png",
+      featured: true,
+    },
+    {
+      title: "Tic-Tac-Toe WPF",
+      techStack: ["C#", "WPF", ".NET 9.0", "MVVM"],
+      description: "Elegant desktop board game built with Microsoft WPF, MVVM design pattern.",
+      longDescription: "Key Features:\n- Player vs Player and Player vs AI modes\n- Multiple board sizes: 3x3, 4x4, 5x5, 6x6\n- Customizable win conditions per grid size\n- Classic and Timed game modes\n- Real-time move timers and time-based tiebreakers\n- Three AI difficulty levels: Easy, Medium, Hard\n- Responsive WPF UI and post-game statistics\n\nTech Stack:\n- Framework: .NET 9.0\n- UI: Windows Presentation Foundation (WPF)\n- Language: C#\n- Architecture: MVVM\n- Build Tools: MSBuild, dotnet CLI\n- Version Control: Git",
+      metrics: "Modern Desktop UI · Responsive MVVM",
+      link: "https://github.com/JordanCJ7/Tic-Tac-Toe-Game-PC",
+      image: "/projects/tictactoe.png",
+      featured: false,
+    },
+    {
+      title: "EarthScope",
+      techStack: ["React", "Material-UI", "REST Countries API", "Jest"],
+      description: "Country Explorer Web App with advanced data filtering and unit testing.",
+      longDescription: "Key Features:\n- Browse and search countries by name.\n- Filter countries by region or language.\n- View detailed country information: flag, population, region, capital, languages, and more.\n- Responsive design for all devices.\n- REST Countries API integration.\n- Modern UI with Material UI and custom CSS.\n- Robust testing with Jest and React Testing Library.\n\nTech Stack:\n- Frontend: React.js, Material UI\n- Styling: Custom CSS\n- Language: JavaScript\n- API: REST Countries API\n- Testing: Jest, React Testing Library",
+      metrics: "Fully Tested · Material UI Components",
+      link: "https://github.com/JordanCJ7/EarthScope",
+      image: "/projects/EarthScope.png",
+      featured: false,
+    },
+    {
+      title: "Salon Pabalu",
+      techStack: ["React", "Node.js", "Express", "MongoDB"],
+      description: "Business management system with role-based access control and analytics.",
+      longDescription: "Key Features:\n- User Account Management: Secure user profiles with role-based access control.\n- Appointment & Scheduling: Online booking with automated reminders and conflict resolution.\n- Service & Product Management: Easy tracking of available services and products, including pricing and inventory.\n- Employee Management: Streamlined leave requests, shift management, and performance tracking.\n- Customer Feedback: Integrated feedback system to improve service quality.\n- Gift Voucher Management: Creation and tracking of customized gift vouchers.\n\nTech Stack:\n- Frontend: React.js\n- Backend: Node.js, Express.js, MongoDB\n- Authentication: Role-based access control",
+      metrics: "RBAC Access Control · Client Scheduling",
+      link: "https://github.com/JordanCJ7/ITP-Salon-Pabalu",
+      image: "/projects/Salon Pabalu.jpeg",
+      featured: false,
+    },
+    {
+      title: "GIF Generator",
+      techStack: ["Python", "Tkinter", "Pillow"],
+      description: "Desktop utility tool for image processing and high-performance GIF compilation.",
+      longDescription: "Key Features:\n- Scrollable image preview grid with hover effects and remove buttons\n- Real-time thumbnail previews with queue numbering\n- Intuitive layout with fixed column structure for consistency\n- Fully customizable frame duration and output resolution\n- Clean, modern GUI styling with color themes and padding\n- Smooth incremental image selection with live updates\n\nMain Modules:\n- Select multiple images from file explorer\n- Live thumbnails with scrollable grid (150x150 preview)\n- Custom frame duration (in ms)\n- Adjustable GIF resolution (width x height)\n- Remove image from preview queue with a single click\n- Save GIF to custom location\n- Image order labels for frame sequencing\n- Input validation and error handling for all fields\n\nTech Stack:\n- Language: Python 3.x\n- GUI: Tkinter (native Python library)\n- Image Processing: Pillow\n- No external dependencies or frameworks required",
+      metrics: "No external dependencies · Local processing",
+      link: "https://github.com/JordanCJ7/GIF-Generator",
+      image: "/projects/gifgenerator.png",
+      featured: false,
+    },
+  ],
+} as const;

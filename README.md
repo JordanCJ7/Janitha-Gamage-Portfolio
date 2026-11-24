@@ -12,9 +12,9 @@ Designed for clarity, elegance, and a seamless reading experience.
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-New_York-000?style=flat-square)](https://ui.shadcn.com/)
-[![Deployed on Furo](https://img.shields.io/badge/Furo-Deployed-00E19B?style=flat-square)](https://janithagamage.furo.lk)
+[![Deployed on Furo](https://img.shields.io/badge/Furo-Deployed-00E19B?style=flat-square)](https://janitha-gamage-portfolio.vercel.app/)
 
-[**Live Demo →**](https://janithagamage.furo.lk/)
+[**Live Demo →**](https://janitha-gamage-portfolio.vercel.app/)
 
 </div>
 

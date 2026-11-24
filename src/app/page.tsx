@@ -113,7 +113,7 @@ export default function Page() {
             <div className="hidden flex-col gap-1 text-xs font-mono text-muted-foreground print:flex">
               <p>{RESUME_DATA.contact.email}</p>
               <p>{RESUME_DATA.contact.tel}</p>
-              <p>https://janithagamage.furo.lk/</p>
+              <p>https://janitha-gamage-portfolio.vercel.app/</p>
             </div>
 
             {/* Availability Badge */}
@@ -445,8 +445,8 @@ export default function Page() {
               </p>
               <p>
                 Website:{" "}
-                <a href="https://janithagamage.furo.lk/" target="_blank" rel="noopener noreferrer" className="hover:underline font-semibold text-foreground">
-                  janithagamage.furo.lk
+                <a href="https://janitha-gamage-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline font-semibold text-foreground">
+                  janitha-gamage-portfolio.vercel.app
                 </a>
               </p>
             </div>

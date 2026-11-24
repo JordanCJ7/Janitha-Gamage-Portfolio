@@ -18,12 +18,12 @@ export const metadata: Metadata = {
   title: "Janitha Gamage | Emerging Developer & Product Strategist",
   description:
     "Portfolio of Janitha Gamage, Software Engineering Undergraduate & emerging Developer & Product Strategist based in Colombo, Sri Lanka. Specializing in AI-driven development, React, TypeScript, and cloud technologies.",
-  metadataBase: new URL("https://janithagamage.furo.lk"),
+  metadataBase: new URL("https://janitha-gamage-portfolio.vercel.app/"),
   openGraph: {
     title: "Janitha Gamage | Emerging Developer & Product Strategist",
     description:
       "Software Engineering Undergraduate at SLIIT. Specializing in AI-driven development, TypeScript, React, and cloud architectures.",
-    url: "https://janithagamage.furo.lk",
+    url: "https://janitha-gamage-portfolio.vercel.app/",
     siteName: "Janitha Gamage Portfolio",
     locale: "en_US",
     type: "website",
@@ -71,7 +71,7 @@ export default function RootLayout({
               "@type": "Person",
               "name": "Janitha Gamage",
               "jobTitle": "Emerging Developer & Product Strategist",
-              "url": "https://janithagamage.furo.lk",
+              "url": "https://janitha-gamage-portfolio.vercel.app/",
               "sameAs": [
                 "https://github.com/JordanCJ7",
                 "https://www.linkedin.com/in/janithagamage/",

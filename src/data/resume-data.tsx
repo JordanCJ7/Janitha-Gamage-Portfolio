@@ -121,7 +121,7 @@ export const RESUME_DATA = {
   professionalExperience: [
     {
       company: "Furo Labs",
-      link: "https://furo.lk",
+      link: "https://labs.furo.lk",
       badges: ["Co-Founder", "Mobile App Dev", "Text Prediction", "Product Design"],
       title: "Co-Founder & Self-Employed Developer",
       start: "Dec 2025",
